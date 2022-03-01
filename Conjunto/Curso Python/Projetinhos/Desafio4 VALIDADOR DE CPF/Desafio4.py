@@ -39,8 +39,8 @@ while True:
         break
 
 
-# Método realizado pelo professor. Mais linhas, porém mais leveza no código.
 '''
+# Método realizado pelo professor. Mais linhas, porém mais leveza no código.
 print('Seja bem-vindo ao validador de CPF! Será que o seu é válido mesmo?\n')
 
 while True:
