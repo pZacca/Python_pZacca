@@ -28,13 +28,9 @@ while True:
         if not cpf.isnumeric():
             print('Favor digitar apenas números.\n')
             continue
-
-
         elif not len(cpf) == 11:
             print('O CPF deve conter 11 dígitos.\n')
             continue
-
-
         else:
             break
 
@@ -62,8 +58,6 @@ while True:
     if not cpfnovo == cpf:
         print('Seu CPF não é valido, tente novamente.\n')
         continue
-
-
     else:
         print('Seu CPF é valido!')
         break
