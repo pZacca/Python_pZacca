@@ -29,7 +29,7 @@ num1 = 1
 print(f'{num1:0>10}')
 
 num2 = 1150
-print(f'{num2:0>10.2f}')
+print(f'{num2:0>5}', type(num2))
 
 #  print(f'{num2:f}')
 

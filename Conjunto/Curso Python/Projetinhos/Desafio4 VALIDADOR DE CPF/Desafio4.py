@@ -13,6 +13,9 @@ while True:
         elif not len(cpf) == 11:
             print('O CPF deve conter 11 dígitos.\n')
             continue
+        elif cpf[0]*9 == cpf[:9]:
+            print('Seu CPF não é válido, tente novamente.')
+            continue
         else:
             break
 

@@ -62,8 +62,6 @@ while executar:
         continue
     if executar.lower() == 's':
         continue
-    elif executar.lower() == 'n':
+    else:
         print('\nObrigado por usar meu código! pZacca <3')
         break
-    else:
-        safe = input('Não era pra isso aq tá acontecendo irmão...')
