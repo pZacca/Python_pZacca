@@ -31,12 +31,13 @@ while True:
     dig_2 = 0 if 11 - (i%11) > 9 else 11 - (i%11)
     cpf_novo = cpf_novo + str(dig_2)
 
-    if not cpf_novo == cpf:
+    if not cpf_novo == cpf:  # Verificador de validade do CPF. Se válido, fim, se não, recomeça.
         print('Seu CPF não é valido, tente novamente.\n')
         continue
     else:
         print('Seu CPF é valido!')
         break
+
 
 # Método realizado pelo professor. Mais linhas, porém mais leveza no código.
 '''
