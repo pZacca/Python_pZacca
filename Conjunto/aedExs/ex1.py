@@ -5,7 +5,8 @@ O perímetro de um retângulo de base "b" e altura "h" é: P = 2(b + h) Cada dia
 executar = True
 
 while executar:
-    print('\nSeja bem vindo ao algoritmo do pZacca!\nVocê descobrirá o perímetro e a diagonal do seu querido retângulo.')
+    print('\nSeja bem vindo ao algoritmo E1L do pZacca!\nVocê descobrirá o perímetro e a diagonal do seu querido '
+          'retângulo.')
     un_medida = input('\nQue tipo de medida você usará?: ') # string apenas por fins estéticos
 
     base = input('Insira a medida da base do retângulo: ')
