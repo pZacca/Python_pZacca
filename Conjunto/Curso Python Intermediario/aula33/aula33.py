@@ -8,11 +8,11 @@ lista = [
     ['P4', 50],
     ['P5', 8]
 ]
-# Como ordenar uma lista
+# Como ordenar uma lista_de_lista
 
-# Afetando a lista original
-# lista.sort(key=lambda item: item[1])
-# print(lista)
+# Afetando a lista_de_lista original
+# lista_de_lista.sort(key=lambda item: item[1])
+# print(lista_de_lista)
 
-# Não afetando a lista original
-# print(sorted(lista, key=lambda i: i[1]))
+# Não afetando a lista_de_lista original
+# print(sorted(lista_de_lista, key=lambda i: i[1]))

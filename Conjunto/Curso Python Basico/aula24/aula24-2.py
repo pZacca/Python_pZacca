@@ -1,5 +1,5 @@
 # enumerate == enumera cada iteração do for
-# desempacotamento == extrair valores dentro de uma lista
+# desempacotamento == extrair valores dentro de uma lista_de_lista
 
 lista1 = [
     ['joao', 'maria', 'pedrao'],  # 0
@@ -20,7 +20,7 @@ lista1 = [
 #     valor_enumerado, minha_lista = v1
 #     print(valor_enumerado, minha_lista)
 
-# Desempacota com variáveis e imprime a lista sem os índices
+# Desempacota com variáveis e imprime a lista_de_lista sem os índices
 # for v1 in enumerate(lista1):
 #     valor_enumerado, minha_lista = v1
 #     print(minha_lista)

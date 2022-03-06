@@ -31,5 +31,5 @@ lista2 = [6,7,8,9,10]
 func(*lista, *lista2, nome ='Pedro', idade = 20)
 
 
-# print(*lista)  # Desempacotamento de lista.
-# print(*lista, sep='-')  # Desempacotamento de lista com separador.
+# print(*lista_de_lista)  # Desempacotamento de lista_de_lista.
+# print(*lista_de_lista, sep='-')  # Desempacotamento de lista_de_lista com separador.

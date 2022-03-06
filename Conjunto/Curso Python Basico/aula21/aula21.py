@@ -9,14 +9,14 @@ min, max
 range
 """
 #           0    1    2    3    4
-# lista = ['A', 'B', 'C', 'D', 'E']
+# lista_de_lista = ['A', 'B', 'C', 'D', 'E']
 #          -5   -4   -3   -2   -1
 
 '''
-lista = ['A', 'B', 'C', 'D', 'E', 10.5]
-# lista[0:5] = 'Qualquer outra coisa.'
+lista_de_lista = ['A', 'B', 'C', 'D', 'E', 10.5]
+# lista_de_lista[0:5] = 'Qualquer outra coisa.'
 
-print(lista[::-1])
+print(lista_de_lista[::-1])
 '''
 
 '''
