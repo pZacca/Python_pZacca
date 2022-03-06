@@ -3,7 +3,7 @@
 # primo(2) retorna 3, primo(3) retorna 5 e assim por diante.
 # **************** E M   P R O G R E S S O ****************
 
-primos = '2/'
+primos = '2 / '
 n = 2
 count = 2
 x = int(input('Digite um numero: '))
@@ -21,6 +21,22 @@ while n < x:
                 count += 1
 
         if(mult==0):
-            primos += f'{n}/'
+            primos += f' {n} / '
 
 print(primos)
+
+# anotações, favor ignorar
+# if 49 % 1 != 0
+#
+#
+# 49 =+ 1
+#
+#
+#
+#
+# x = range(3, tentativa)
+#
+# if tentativa % x == 0:
+#     continue
+# else:
+#     tentativa // x == tentativa % x

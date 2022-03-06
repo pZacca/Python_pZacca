@@ -1,2 +1,1 @@
-print(5//2)
-print()
+print(239%11)
